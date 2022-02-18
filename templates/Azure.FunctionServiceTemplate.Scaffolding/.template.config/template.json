@@ -12,6 +12,7 @@
   "symbols": {
     "company": {
       "type": "parameter",
+      "isRequired": true,
       "datatype": "text",
       "replaces": "Company",
       "defaultValue": "Your Company name",
@@ -19,6 +20,7 @@
     },
     "application": {
       "type": "parameter",
+      "isRequired": true,
       "datatype": "text",
       "replaces": "Application",
       "defaultValue": "Your Application name",
@@ -26,6 +28,7 @@
     },
     "component": {
       "type": "parameter",
+      "isRequired": true,
       "datatype": "text",
       "replaces": "Component",
       "defaultValue": "Your Component name",
