@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Adi Thakker",
+  "classifications": [ "Solution", "Service" ],
+  "identity": "Adi.FunctionAppTemplate.CSharp",
+  "name": "Adi Thakker Custom function app template",
+  "shortName": "adifunctionappservice",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "symbols": {
+    "company": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "Company",
+      "defaultValue": "Your Company name",
+      "fileRename": "Company"
+    },
+    "application": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "Application",
+      "defaultValue": "Your Application name",
+      "fileRename": "Application"
+    },
+    "component": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "Component",
+      "defaultValue": "Your Component name",
+      "fileRename": "Component"
+    },
+    "includeIntegrationTest": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!includeIntegrationTest)",
+          "exclude": [ "Testing/Company.Application.Component.IntegrationTest/**" ]
+        }
+      ]
+    }
+  ]
+  "preferNameDirectory": true
+}

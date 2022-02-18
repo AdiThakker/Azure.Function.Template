@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58113735-9F85-48CD-B19D-737D4AAB8377}"
+	ProjectSection(SolutionItems) = preProject
+		Azure.Function.Template.csproj = Azure.Function.Template.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "templates", "templates", "{E3FB9FBF-3EA4-4D3E-ACDC-2420CE2AF116}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3FB9FBF-3EA4-4D3E-ACDC-2420CE2AF116} = {58113735-9F85-48CD-B19D-737D4AAB8377}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23F13961-7811-4412-A5B0-8577C091A400}
+	EndGlobalSection
+EndGlobal
