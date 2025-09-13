@@ -2,7 +2,7 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0.0</PackageVersion>
-    <PackageId>My Custom Azure Function Template</PackageId>
+    <PackageId>AdiThakker.Azure.Function.Template</PackageId>
     <Title>Azure Function Template</Title>
     <Authors>Adi Thakker</Authors>
     <Description>Solution Template that scaffolds a custom Azure Function Microservice Projects</Description>
